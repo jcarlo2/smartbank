@@ -1,0 +1,111 @@
+.account-management-container {
+  @include dashboardContainer;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  .overview {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    input[type="button"] {
+      @include defaultBtn;
+      width: auto;
+      min-height: 30px;
+      padding: 0 20px;
+      background-color: rgb(102, 197, 102);
+    }
+    div.overview-table {
+      overflow-y: auto;
+      max-height: 300px;
+    }
+  }
+  .history {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    > .history-table {
+      overflow: auto;
+      max-height: 300px;
+    }
+    > div:nth-child(2) {
+      display: flex;
+      gap: 30px;
+      div {
+        display: flex;
+        gap: 10px;
+        label {
+          display: flex;
+          gap: 5px;
+        }
+        span {
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          cursor: pointer;
+          &:hover {
+            border: 1px solid black;
+          }
+          &:nth-child(1) {
+            background: url("../images/arrow-left.svg") no-repeat;
+            background-size: 100% 100%;
+          }
+          &:nth-child(3) {
+            background: url("../images/arrow-right.svg") no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+      }
+    }
+  }
+  .personal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    section {
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      gap: 5px;
+      width: 400px;
+      label {
+        &:last-child {
+          padding-right: 90px;
+        }
+        display: flex;
+        justify-content: space-between;
+        input:not([type="checkbox"]) {
+          @include defaultInput;
+          width: 200px;
+          border: 1px solid rgba(0, 0, 0, 0.3);
+          padding-left: 10px;
+        }
+        input[type="checkbox"] {
+          height: 20px;
+          width: 30px;
+        }
+        span {
+          font-size: 0.875em;
+          font-weight: bold;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 150px;
+        }
+      }
+      input[type="button"] {
+        @include defaultBtn;
+        width: 150px;
+        align-self: center;
+      }
+    }
+    ul {
+      padding-left: 20px;
+      list-style-type: disc;
+      li span {
+        font-weight: bold;
+      }
+    }
+  }
+}

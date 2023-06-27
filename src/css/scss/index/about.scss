@@ -1,0 +1,27 @@
+.about-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--bg-grey);
+  > div:first-child {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    > div {
+      width: 300px;
+    }
+  }
+
+  > div:nth-child(2) {
+    width: 600px;
+    margin: 0 auto;
+    > ul {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      list-style: square;
+    }
+  }
+}

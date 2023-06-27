@@ -1,0 +1,38 @@
+.contact-container {
+  width: 100%;
+  padding: 50px;
+  background-color: var(--bg-grey);
+  > div {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    > div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    > form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      input {
+        @include defaultInput;
+        width: 100%;
+        padding-left: 10px;
+        &[type=submit] {
+          cursor: pointer;
+        }
+      }
+      > textarea {
+        border-radius: 6px;
+        padding: 10px;
+        resize: none;
+        outline: none;
+        border: 0;
+      }
+    }
+  }
+}
