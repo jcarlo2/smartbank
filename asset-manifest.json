@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/smartbank/static/css/main.f540e9aa.css",
+    "main.js": "/smartbank/static/js/main.7b3ef23e.js",
+    "static/js/787.b21ea4cd.chunk.js": "/smartbank/static/js/787.b21ea4cd.chunk.js",
+    "static/media/banner.jpg": "/smartbank/static/media/banner.87c4b5743d594c1ab21a.jpg",
+    "static/media/hero.jpg": "/smartbank/static/media/hero.bc9cba5221e11cf17f02.jpg",
+    "static/media/logo.jpeg": "/smartbank/static/media/logo.8335f0ca98af1ec7202d.jpeg",
+    "static/media/logo-white.png": "/smartbank/static/media/logo-white.bbe74397679fe5b3e3ea.png",
+    "static/media/logo-black.png": "/smartbank/static/media/logo-black.95767d63d850b5070f2c.png",
+    "static/media/profile_7.svg": "/smartbank/static/media/profile_7.a072b0da86bb1b26549c.svg",
+    "static/media/profile_1.svg": "/smartbank/static/media/profile_1.ebd90db8b6a36aa09aa6.svg",
+    "static/media/profile_6.svg": "/smartbank/static/media/profile_6.e9291aa60a72e477114e.svg",
+    "static/media/profile_2.svg": "/smartbank/static/media/profile_2.20e2859afa9db4137d9d.svg",
+    "static/media/profile_4.svg": "/smartbank/static/media/profile_4.69a989a091c59c1b3fb1.svg",
+    "static/media/profile_3.svg": "/smartbank/static/media/profile_3.33871e89148918a33508.svg",
+    "static/media/profile_5.svg": "/smartbank/static/media/profile_5.a9d010eae82943ba87ff.svg",
+    "static/media/online-payment.svg": "/smartbank/static/media/online-payment.09cd10db4da1ef28cef0.svg",
+    "static/media/instagram.svg": "/smartbank/static/media/instagram.a0a9a83448ddb5827d70.svg",
+    "static/media/tiktok.svg": "/smartbank/static/media/tiktok.c998de05d233778ffad5.svg",
+    "static/media/twitter.svg": "/smartbank/static/media/twitter.e02e74d8482086130f39.svg",
+    "static/media/security.svg": "/smartbank/static/media/security.234bc57ac6bd8a58cbdc.svg",
+    "static/media/money-transfer.svg": "/smartbank/static/media/money-transfer.4035c8000e7f7736e761.svg",
+    "static/media/facebook.svg": "/smartbank/static/media/facebook.1d8e0397525aadb52a02.svg",
+    "static/media/arrow-right.svg": "/smartbank/static/media/arrow-right.88ce8c158515bc77e4df.svg",
+    "static/media/arrow-left.svg": "/smartbank/static/media/arrow-left.9354f0de37123496a821.svg",
+    "index.html": "/smartbank/index.html",
+    "static/media/customer-service.svg": "/smartbank/static/media/customer-service.e38e925dd1185cbc99b1.svg",
+    "main.f540e9aa.css.map": "/smartbank/static/css/main.f540e9aa.css.map",
+    "main.7b3ef23e.js.map": "/smartbank/static/js/main.7b3ef23e.js.map",
+    "787.b21ea4cd.chunk.js.map": "/smartbank/static/js/787.b21ea4cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f540e9aa.css",
+    "static/js/main.7b3ef23e.js"
+  ]
+}
