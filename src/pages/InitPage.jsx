@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import useGlobalVariable, { GlobalContext } from "../context/GlobalContext";
 import Index from "./Index";
 import Login from "./Login";
@@ -14,7 +14,7 @@ import CardManagement from "../components/dashboard/CardManagement";
 const InitPage = () => {
   const global = useGlobalVariable();
   return (
-    <BrowserRouter future={{ v7_startTransition: true }}>
+    <HashRouter future={{ v7_startTransition: true }}>
       <GlobalContext.Provider value={global}>
         <React.StrictMode>
           <Routes>
@@ -33,7 +33,7 @@ const InitPage = () => {
           </Routes>
         </React.StrictMode>
       </GlobalContext.Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

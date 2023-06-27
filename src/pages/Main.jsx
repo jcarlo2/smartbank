@@ -15,7 +15,7 @@ const Main = () => {
       console.log('AUTH')
       navigate("/main/login");
     }
-    else if(href === '/main/' || href === '/main') navigate('/main/dashboard')
+    else if(href === '#/main/' || href === '#/main') navigate('/main/dashboard')
   }, [isAuthorize]);
 
   return (
