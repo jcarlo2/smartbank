@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smartbank/static/css/main.f540e9aa.css",
-    "main.js": "/smartbank/static/js/main.7b3ef23e.js",
+    "main.js": "/smartbank/static/js/main.8ce40626.js",
     "static/js/787.b21ea4cd.chunk.js": "/smartbank/static/js/787.b21ea4cd.chunk.js",
     "static/media/banner.jpg": "/smartbank/static/media/banner.87c4b5743d594c1ab21a.jpg",
     "static/media/hero.jpg": "/smartbank/static/media/hero.bc9cba5221e11cf17f02.jpg",
@@ -27,11 +27,11 @@
     "index.html": "/smartbank/index.html",
     "static/media/customer-service.svg": "/smartbank/static/media/customer-service.e38e925dd1185cbc99b1.svg",
     "main.f540e9aa.css.map": "/smartbank/static/css/main.f540e9aa.css.map",
-    "main.7b3ef23e.js.map": "/smartbank/static/js/main.7b3ef23e.js.map",
+    "main.8ce40626.js.map": "/smartbank/static/js/main.8ce40626.js.map",
     "787.b21ea4cd.chunk.js.map": "/smartbank/static/js/787.b21ea4cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f540e9aa.css",
-    "static/js/main.7b3ef23e.js"
+    "static/js/main.8ce40626.js"
   ]
 }
